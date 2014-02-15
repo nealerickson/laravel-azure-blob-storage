@@ -1,0 +1,23 @@
+{
+    "name": "heedworks/laravel-azure-blob-storage",
+    "description": "",
+    "authors": [
+        {
+            "name": "Neal Erickson",
+            "email": "neal@heedworks.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "beberlei/azure-blob-storage": "*"
+    },
+    "require-dev": {
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Heedworks\\LaravelAzureBlobStorage": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
